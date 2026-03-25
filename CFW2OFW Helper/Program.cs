@@ -1,4 +1,4 @@
-﻿/* This program is free software. It comes without any warranty, to
+/* This program is free software. It comes without any warranty, to
  * the extent permitted by applicable law. You can redistribute it
  * and/or modify it under the terms of the Do What The Fuck You Want
  * To Public License, Version 2, as published by Sam Hocevar. See
@@ -1238,6 +1238,7 @@ namespace CFW2OFW
             if (G.NoCheck)
             {
                 ServicePointManager.ServerCertificateValidationCallback += delegate { return true; };
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 ParseSettings();
                 Console.WriteLine(" --- CFW2OFW Helper v13 ---\n// https://github.com/friendlyanon/CFW2OFW-Helper/");
             }
