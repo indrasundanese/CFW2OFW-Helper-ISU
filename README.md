@@ -19,13 +19,12 @@ The original tool has been broken for years, constantly showing a **"No internet
 ## 🛠️ Requirements
 * Windows OS
 * [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48)
-* `make_npdata.exe` (Must be placed in the same folder as this executable / Wajib diletakkan berdampingan dengan aplikasi ini).
+* `make_npdata.exe` (Must be placed in the same folder as this executable).
 
 ## 🚀 How to Use
 1. Extract your PS3 disc game. You should have a folder containing `PS3_GAME` and `PS3_DISC.SFB`.
-2. Ensure the folder name matches the Game ID (e.g., `BLES01234`).
-3. **Drag and drop** that folder onto `CFW2OFW Helper.exe`.
-4. The tool will automatically fetch the patch, extract data, and convert it into a digital format (e.g., `NPEB01234`).
+2. **Drag and drop** that `PS3_GAME` folder onto `CFW2OFW Helper.exe`.
+3. The tool will automatically fetch the patch, extract data, and convert it into a digital format (e.g., `NPEB01234`).
 
 ---
 
