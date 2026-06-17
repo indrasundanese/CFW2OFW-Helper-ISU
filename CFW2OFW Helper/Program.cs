@@ -1242,6 +1242,25 @@ namespace CFW2OFW
                 ParseSettings();
                 Console.WriteLine(" --- CFW2OFW Helper v13 ---\n// https://github.com/friendlyanon/CFW2OFW-Helper/");
             }
+            if (args.Length == 0 && !ParamExists)
+            {
+                Console.WriteLine("\n[Input] Drag and drop folder PS3_GAME ke sini lalu tekan Enter:");
+                string dragPath = Console.ReadLine();
+
+                if (!string.IsNullOrWhiteSpace(dragPath))
+                {
+                    dragPath = dragPath.Trim().Trim('"');
+                    if (!dragPath.EndsWith("PS3_GAME", StringComparison.OrdinalIgnoreCase) &&
+                        !dragPath.EndsWith("PS3_GAME\\", StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (Directory.Exists(dragPath + "\\PS3_GAME"))
+                        {
+                            dragPath = dragPath + "\\PS3_GAME";
+                        }
+                    }
+                    args = new string[] { dragPath };
+                }
+            }
             switch (args.Length)
             {
             case 0:
