@@ -1,4 +1,4 @@
-# CFW2OFW Helper (TLS 1.2 Network Fix)
+# CFW2OFW Helper v13.2
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)
 ![Framework](https://img.shields.io/badge/.NET_Framework-4.8-purple.svg)
