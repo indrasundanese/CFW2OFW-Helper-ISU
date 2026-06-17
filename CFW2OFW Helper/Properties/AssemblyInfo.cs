@@ -1,17 +1,17 @@
-﻿using System.Resources;
+using System.Resources;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CFW2OFW Helper")]
-[assembly: AssemblyDescription("CFW2OFW Helper")]
+[assembly: AssemblyTitle("CFW2OFW Helper Indra Sundanese")]
+[assembly: AssemblyDescription("CFW2OFW Helper Indra Sundanese")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("CFW2OFW Helper")]
-[assembly: AssemblyProduct("CFW2OFW Helper")]
-[assembly: AssemblyCopyright("Copyright © CFW2OFW Helper 2017")]
-[assembly: AssemblyTrademark("CFW2OFW Helper")]
+[assembly: AssemblyCompany("CFW2OFW Helper Indra Sundanese")]
+[assembly: AssemblyProduct("CFW2OFW Helper Indra Sundanese")]
+[assembly: AssemblyCopyright("Copyright © CFW2OFW Helper Indra Sundanese 2026")]
+[assembly: AssemblyTrademark("CFW2OFW Helper Indra Sundanese")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
